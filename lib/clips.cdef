@@ -282,3 +282,6 @@ void *EnvGetNextDefmodule(void *, void *);
 void *EnvFindDefmodule(void *, const char *);
 const char *EnvGetDefmoduleName(void *, void *);
 const char *EnvGetDefmodulePPForm(void *, void *);
+
+/* Trace */
+void register_trace_func(void *);

@@ -144,3 +144,5 @@ int implied_deftemplate(struct deftemplate *template)
 {
     return template->implied;
 }
+
+#include "../../lib/clips_trace.c"
